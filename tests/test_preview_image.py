@@ -16,9 +16,10 @@ def test_png_is_deterministic_and_places_spatial_app_below_empty_rows():
     assert png == render_layout_png(plan, {}, spatial=True)
     image = Image.open(BytesIO(png))
     assert image.format == "PNG"
-    # App icon occupies row five; row one has only the screen background.
-    assert image.getpixel((75, 180)) == (199, 216, 206)
-    assert image.getpixel((75, 516)) != (199, 216, 206)
+    # The light Mail icon is in row five, while its row-one cell stays wallpaper.
+    # Export is rendered at 2x; sample inside the icon, away from its glyph.
+    assert all(c < 100 for c in image.getpixel((160, 480)))
+    assert all(c > 200 for c in image.getpixel((160, 1200)))
 
 
 def test_png_rejects_overlap_and_bulk_overflow():

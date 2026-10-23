@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 — 2026-10-22
+
+- Restrict private phone artifacts to their owner, including migration of older runtime files and removal of macOS extended ACL grants. Reject unsafe file aliases/ownership and preserve exclusive locks and frame reservations.
+- Add regression coverage for permissive umasks, historical files, custom shared output directories, symlinks/hardlinks, ACL inheritance, storage failures, and preservation of edited layouts.
+- Replace basic PNG tiles with phone frames, dark wallpaper, original line illustrations, and sample widget cards. Exact spatial cells and empty regions remain tied to the source plan.
+- Refresh the fictional public previews. No actual app artwork or live widget content is fetched.
+
 ## 0.1.0 — 2026-10-22
 
 First public alpha release.

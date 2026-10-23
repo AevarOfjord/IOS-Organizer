@@ -9,7 +9,7 @@ Use Codex, Claude Code, or Gemini CLI to list your apps, choose folder groups, a
 
 ![Two fictional Home Screen pages rendered by iOS Organizer](docs/assets/layout-preview.png)
 
-*Generated from [fictional example data](examples/layout.yaml). Icons use initials. This is a layout preview, not an iPhone screenshot.*
+*Generated from [fictional example data](examples/layout.yaml). Phone-style PNGs use illustrated symbols, with initials for unknown apps. Widget cards show sample content. This is a layout preview, not an iPhone screenshot.*
 
 ## Get started
 
@@ -74,7 +74,7 @@ These files reduce differences in the process; models can still make different r
 
 ## Privacy and recovery
 
-Backups, app inventories, layouts, and screen observations belong in the ignored `backups/`, `workspace/`, and `probe/` directories. They can contain personal information. The public examples and fixtures are synthetic. Your chosen agent may process app data under its own settings; this project has no AI service integration or telemetry.
+Backups, app inventories, layouts, and screen observations belong in the ignored `backups/`, `workspace/`, and `probe/` directories. They can contain personal information. Commands restrict existing private runtime folders and their contents to the owner; new sensitive files are created with owner-only access. The public examples and fixtures are synthetic. Your chosen agent may process app data under its own settings; this project has no AI service integration or telemetry.
 
 A layout backup is **not a full iPhone backup**. It cannot guarantee restoration of App Library-only placement, free spacing, or widget configuration. Keep the recovery path reported by the CLI. A mismatch is reported as a mismatch, rather than silently marked successful. See [recovery commands](docs/cli-reference.md).
 
