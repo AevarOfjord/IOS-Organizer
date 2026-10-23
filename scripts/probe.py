@@ -41,6 +41,7 @@ from pymobiledevice3.lockdown import create_using_usbmux
 from pymobiledevice3.services.installation_proxy import InstallationProxyService
 from pymobiledevice3.services.springboard import SpringBoardServicesService
 from pymobiledevice3.usbmux import list_devices
+from ios_organizer.private_io import secure_private_tree, write_private
 
 
 def _json_default(obj: Any) -> Any:
@@ -195,7 +196,7 @@ async def run_probe(udid: str | None = None, pair_timeout: float = 15.0) -> int:
         print()
 
         probe_dir = Path("probe")
-        probe_dir.mkdir(parents=True, exist_ok=True)
+        secure_private_tree(probe_dir)
 
         # 3. Call get_icon_state() once
         try:
@@ -230,7 +231,7 @@ async def run_probe(udid: str | None = None, pair_timeout: float = 15.0) -> int:
 
         raw_state_path = probe_dir / "raw_icon_state.json"
         non_json_in_state = _find_non_json_types(raw_icon_state)
-        raw_state_path.write_text(
+        write_private(raw_state_path,
             json.dumps(raw_icon_state, indent=2, ensure_ascii=False, default=_json_default) + "\n",
             encoding="utf-8",
         )
@@ -324,7 +325,7 @@ async def run_probe(udid: str | None = None, pair_timeout: float = 15.0) -> int:
         }
 
         app_fields_path = probe_dir / "app_fields.json"
-        app_fields_path.write_text(
+        write_private(app_fields_path,
             json.dumps(app_fields_report, indent=2, ensure_ascii=False, default=_json_default) + "\n",
             encoding="utf-8",
         )

@@ -15,3 +15,11 @@ Include the affected version, impact, reproduction using fictional data where po
 The tool itself does not call an AI API or collect telemetry. Your coding agent is a separate product with its own data handling and permission settings. Runtime directories are ignored by Git, but files copied elsewhere or deliberately force-added can still be published. Review the files you share.
 
 A layout backup is not an encrypted full-device backup. Keep local backups private. Permission denials must be honored; changing transports is not a workaround for denied app access.
+
+## Private artifact permissions
+
+Version 0.1.1 creates sensitive files with POSIX mode `0600` and application-owned runtime directories with `0700`. Before accessing phone data, CLI commands repair existing `workspace/`, `backups/`, and `probe/` trees without changing file contents. The shared persistence APIs also secure their designated backup/opaque/UI directories. On macOS, extended ACL entries are removed through validated file descriptors, because mode bits alone do not revoke ACL grants.
+
+Runtime directories must be dedicated to this tool. Symlinks, multiply linked files, foreign ownership, and special files are rejected rather than followed or silently modified. A permission-repair failure blocks the command. Explicit output files outside the runtime directories receive private permissions without changing existing shared parent directories. Public fictional demo assets use a separate ordinary export path.
+
+This protects future access through these paths; it cannot undo prior reads, copied data, pre-existing open handles, or access by the same OS account or an administrator. Review older files copied outside managed runtime directories separately.

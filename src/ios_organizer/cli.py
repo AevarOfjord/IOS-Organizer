@@ -46,6 +46,7 @@ from ios_organizer.organizer import (
 from ios_organizer.validation import ValidationResult, validate_layout
 from ios_organizer.preview import render_layout_preview
 from ios_organizer.preview_image import render_layout_png
+from ios_organizer.private_io import private_directory, secure_runtime_roots, write_private
 from ios_organizer.onboarding import Stage, guide as workflow_guide, render_inventory
 from ios_organizer.ui_cli import app as ui_app
 
@@ -70,6 +71,18 @@ DEFAULT_LAST_PULL_HASH_PATH = DEFAULT_OPAQUE_DIR / ".last_pull_sha256"
 DEFAULT_PREVIEW_PATH = DEFAULT_WORKSPACE_DIR / "compiled_preview.json"
 DEFAULT_BACKUP_DIR = Path("backups")
 DEFAULT_HTML_PREVIEW_PATH = DEFAULT_WORKSPACE_DIR / "layout_preview.html"
+
+
+@app.callback()
+def protect_local_phone_data(ctx: typer.Context) -> None:
+    """Restrict existing private runtime artifacts before commands access them."""
+    if ctx.invoked_subcommand in (None, "guide"):
+        return
+    try:
+        secure_runtime_roots()
+    except OSError as exc:
+        err_console.print(f"Private storage error: {exc}", markup=False)
+        raise typer.Exit(1)
 
 
 def _file_sha256(path: Path) -> str:
@@ -239,11 +252,7 @@ def preview(
             raise ValueError('Preview output must be HTML or PNG.')
         if output_file.resolve() == layout_file.resolve():
             raise ValueError("Preview output must differ from the input layout.")
-        output_file.parent.mkdir(parents=True, exist_ok=True)
-        if isinstance(content, bytes):
-            output_file.write_bytes(content)
-        else:
-            output_file.write_text(content, encoding="utf-8")
+        write_private(output_file, content)
     except (OSError, KeyError, ValueError) as exc:
         err_console.print(f"[bold red]Preview Error:[/bold red] {exc}")
         raise typer.Exit(code=1)
@@ -276,8 +285,7 @@ def inventory(
         compile_layout(layout, opaque_store=store)
         if output_file.resolve() == layout_file.resolve():
             raise ValueError("Inventory output must differ from the input layout.")
-        output_file.parent.mkdir(parents=True, exist_ok=True)
-        output_file.write_text(render_inventory(layout, source=str(layout_file)), encoding="utf-8")
+        write_private(output_file, render_inventory(layout, source=str(layout_file)))
     except (OSError, KeyError, ValueError) as exc:
         err_console.print(f"Inventory Error: {exc}", markup=False)
         raise typer.Exit(code=1)
@@ -375,7 +383,7 @@ def pull(
         installed_apps=installed_apps,
     )
 
-    DEFAULT_WORKSPACE_DIR.mkdir(parents=True, exist_ok=True)
+    private_directory(DEFAULT_WORKSPACE_DIR)
     is_modified = False
     if DEFAULT_LAYOUT_PATH.exists() and not overwrite:
         current_sha = _file_sha256(DEFAULT_LAYOUT_PATH)
@@ -388,16 +396,16 @@ def pull(
             is_modified = True
 
     if is_modified:
-        DEFAULT_NEW_LAYOUT_PATH.write_text(yaml_text, encoding="utf-8")
+        write_private(DEFAULT_NEW_LAYOUT_PATH, yaml_text, encoding="utf-8")
         console.print(
             f"[yellow]Notice:[/yellow] {DEFAULT_LAYOUT_PATH} has local modifications and was not overwritten.\n"
             f"Wrote newly pulled layout to [bold]{DEFAULT_NEW_LAYOUT_PATH}[/bold] "
             "(pass --overwrite to replace workspace/layout.yaml)."
         )
     else:
-        DEFAULT_LAYOUT_PATH.write_text(yaml_text, encoding="utf-8")
-        DEFAULT_OPAQUE_DIR.mkdir(parents=True, exist_ok=True)
-        DEFAULT_LAST_PULL_HASH_PATH.write_text(
+        write_private(DEFAULT_LAYOUT_PATH, yaml_text, encoding="utf-8")
+        private_directory(DEFAULT_OPAQUE_DIR)
+        write_private(DEFAULT_LAST_PULL_HASH_PATH,
             _file_sha256(DEFAULT_LAYOUT_PATH) + "\n",
             encoding="utf-8",
         )
@@ -579,8 +587,8 @@ def push(
     _warn_app_library(compiled_raw, installed_apps)
 
     if dry_run:
-        DEFAULT_WORKSPACE_DIR.mkdir(parents=True, exist_ok=True)
-        DEFAULT_PREVIEW_PATH.write_text(
+        private_directory(DEFAULT_WORKSPACE_DIR)
+        write_private(DEFAULT_PREVIEW_PATH,
             json.dumps(to_json_compatible(compiled_raw), indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
@@ -821,9 +829,8 @@ def auto_sort(
             )
             raise typer.Exit(code=1)
 
-        categories_file.parent.mkdir(parents=True, exist_ok=True)
         categories_text = dump_categories_yaml(installed_apps, existing_categories=existing_categories)
-        categories_file.write_text(categories_text, encoding="utf-8")
+        write_private(categories_file, categories_text, encoding="utf-8")
         console.print(
             f"[bold green]Wrote starter categories mapping ({len(installed_apps)} apps) to:[/bold green] "
             f"{categories_file}"
@@ -864,7 +871,6 @@ def auto_sort(
         err_console.print(f"[bold red]Auto-Sort Error:[/bold red] {exc}")
         raise typer.Exit(code=1)
 
-    output_file.parent.mkdir(parents=True, exist_ok=True)
     yaml_out = dump_layout_yaml(
         sorted_layout,
         backup_filename=header_meta.get("backup_file"),
@@ -872,7 +878,7 @@ def auto_sort(
         categories=existing_categories,
         installed_apps=installed_apps_map,
     )
-    output_file.write_text(yaml_out, encoding="utf-8")
+    write_private(output_file, yaml_out, encoding="utf-8")
     console.print(
         f"[bold green]Wrote {mode} auto-sort proposal to:[/bold green] {output_file}\n"
         f"(Review {output_file} and copy to {layout_file} or run `push --layout {output_file}` when ready.)"

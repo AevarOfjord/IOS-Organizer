@@ -20,6 +20,7 @@ from ios_organizer.device import IOSDeviceError, fetch_device_snapshot, get_ui_c
 from ios_organizer.screen import ScreenAction, png_size
 from ios_organizer.spatial import render_spatial_preview, spatial_tasks
 from ios_organizer.preview_image import render_layout_png
+from ios_organizer.private_io import open_private, private_directory, secure_private_tree, write_private
 
 
 app = typer.Typer(help='Spatial plans and agent-guided iPhone Mirroring. Developer tools are explicit opt-in.', no_args_is_help=True)
@@ -46,7 +47,7 @@ def _require_coredevice(backend: Backend) -> None:
 
 
 def _write_json(path: Path, data: dict) -> None:
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    write_private(path, json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
 def _save_frame(capture: dict) -> Path:
@@ -55,9 +56,10 @@ def _save_frame(capture: dict) -> Path:
     if (capture['width'], capture['height']) != (width, height):
         raise ValueError('Capture dimensions do not match its PNG.')
     folder = UI_ROOT / uuid4().hex
-    folder.mkdir(parents=True)
+    secure_private_tree(UI_ROOT)
+    private_directory(folder)
     image_path = folder / 'screen.png'
-    image_path.write_bytes(image)
+    write_private(image_path, image)
     frame_path = folder / 'frame.json'
     _write_json(frame_path, {'frame_version': 1, 'udid': capture['udid'], 'created_at': time.time(),
                             'width': width, 'height': height, 'screenshot': str(image_path.resolve()),
@@ -87,11 +89,12 @@ def _load_frame(path: Path, udid: str | None = None) -> dict:
 @contextmanager
 def _device_lock(udid: str):
     locks = UI_ROOT / 'locks'
-    locks.mkdir(parents=True, exist_ok=True)
+    secure_private_tree(UI_ROOT)
+    private_directory(locks)
     key = hashlib.sha256(udid.replace('-', '').encode()).hexdigest()
     path = locks / f'{key}.lock'
     try:
-        handle = path.open('x')
+        handle = open_private(path, exclusive=True)
     except FileExistsError:
         raise ValueError('A screen operation is already running for this phone. If interrupted, inspect it before removing its workspace/ui/locks file.') from None
     try:
@@ -121,11 +124,10 @@ def plan(
         if preview is not None:
             if preview.resolve() == layout.resolve():
                 raise ValueError('Preview output must differ from the design file.')
-            preview.parent.mkdir(parents=True, exist_ok=True)
             if preview.suffix.lower() == '.png':
-                preview.write_bytes(render_layout_png(data, {}, spatial=True, title='Exact placement plan'))
+                write_private(preview, render_layout_png(data, {}, spatial=True, title='Exact placement plan'))
             elif preview.suffix.lower() in {'.html', '.htm'}:
-                preview.write_text(render_spatial_preview(data))
+                write_private(preview, render_spatial_preview(data))
             else:
                 raise ValueError('Preview output must be HTML or PNG.')
         typer.echo(json.dumps({'status': 'plan_only', 'backend': backend.value,
@@ -217,7 +219,7 @@ def action(
             _write_json(journal, record)
             _load_frame(frame, udid)  # A slow backup must not turn an old screenshot into a valid input target.
             # Atomic consumption prevents replay even after a partial action or failed screenshot.
-            with frame.with_suffix('.used').open('x') as consumed:
+            with open_private(frame.with_suffix('.used'), exclusive=True) as consumed:
                 consumed.write('Input attempt reserved. Observe again before retrying.\n')
             record['status'] = 'input_attempt_started'
             _write_json(journal, record)

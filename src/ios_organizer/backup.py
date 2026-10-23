@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from ios_organizer import __version__
+from ios_organizer.private_io import secure_private_tree, write_private
 from ios_organizer.compiler import from_json_compatible, to_json_compatible
 
 
@@ -41,12 +42,12 @@ def write_backup(
     now: datetime.datetime | None = None,
 ) -> BackupRecord:
     """Write a timestamped raw icon state backup and its .meta.json sidecar."""
-    backup_dir.mkdir(parents=True, exist_ok=True)
+    secure_private_tree(backup_dir)
     ts = now or datetime.datetime.now().astimezone()
     stem = f"backup_{ts.strftime('%Y%m%d_%H%M%S')}"
     backup_path = backup_dir / f"{stem}.json"
     counter = 1
-    while backup_path.exists():
+    while backup_path.exists() or backup_path.with_suffix(".meta.json").exists():
         stem_candidate = f"{stem}_{counter}"
         backup_path = backup_dir / f"{stem_candidate}.json"
         counter += 1
@@ -56,9 +57,10 @@ def write_backup(
     created_at = ts.isoformat(timespec="seconds")
 
     json_safe_state = to_json_compatible(raw_state)
-    backup_path.write_text(
+    write_private(backup_path,
         json.dumps(json_safe_state, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
+        exclusive=True,
     )
 
     meta_dict = {
@@ -72,9 +74,10 @@ def write_backup(
         "build_version": build_version,
         "tool_version": __version__,
     }
-    meta_path.write_text(
+    write_private(meta_path,
         json.dumps(meta_dict, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
+        exclusive=True,
     )
 
     return BackupRecord(
@@ -154,10 +157,10 @@ def save_opaque_store(
     opaque_dir: Path = Path("workspace/.opaque"),
 ) -> None:
     """Persist derived opaque element dicts to `workspace/.opaque/<token>.json`."""
-    opaque_dir.mkdir(parents=True, exist_ok=True)
+    secure_private_tree(opaque_dir)
     for token, raw_dict in sorted(opaque_store.items()):
         target = opaque_dir / f"{token}.json"
-        target.write_text(
+        write_private(target,
             json.dumps(to_json_compatible(raw_dict), indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
