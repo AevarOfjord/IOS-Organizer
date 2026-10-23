@@ -95,6 +95,8 @@ def main() -> int:
                 archives += 1
                 with tarfile.open(path) as archive:
                     for member in archive.getmembers():
+                        if member.uid or member.gid or member.uname or member.gname:
+                            errors.append(f"Host account metadata in source archive: {member.name}")
                         if member.isfile():
                             errors += check_name(member.name) + check_content(member.name, archive.extractfile(member).read())
         if archives < 2:
