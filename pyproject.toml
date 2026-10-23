@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ios-organizer"
+version = "0.1.0"
+description = "Two-way iPhone Home Screen layout compiler and manager for macOS using pymobiledevice3"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "NOTICE"]
+keywords = ["iphone", "home-screen", "ai-agent", "codex", "claude-code", "gemini"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "pymobiledevice3==11.41.2",
+    "pyyaml==6.0.3",
+    "rich==15.0.0",
+    "typer==0.27.3",
+    "pillow>=11,<14",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+]
+
+[project.scripts]
+ios-organizer = "ios_organizer.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/AevarOfjord/IOS-Organizer"
+Issues = "https://github.com/AevarOfjord/IOS-Organizer/issues"
+Documentation = "https://github.com/AevarOfjord/IOS-Organizer#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

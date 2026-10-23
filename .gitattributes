@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.png binary
+workspace/** export-ignore
+backups/** export-ignore
+probe/** export-ignore

@@ -1,0 +1,171 @@
+[
+  [
+    {
+      "bundleIdentifier": "com.apple.mobilephone",
+      "bundleVersion": "36.0",
+      "displayIdentifier": "com.apple.mobilephone",
+      "displayName": "Phone",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-10-01T12:00:00"
+      }
+    },
+    {
+      "bundleIdentifier": "com.apple.MobileSMS",
+      "bundleVersion": "1491.0",
+      "displayIdentifier": "com.apple.MobileSMS",
+      "displayName": "Messages",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-10-01T12:00:00"
+      }
+    },
+    {
+      "bundleIdentifier": "com.apple.mobilesafari",
+      "bundleVersion": "8625.0",
+      "displayIdentifier": "com.apple.mobilesafari",
+      "displayName": "Safari",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-10-01T12:00:00"
+      }
+    },
+    {
+      "bundleIdentifier": "com.apple.Music",
+      "bundleVersion": "4026.0",
+      "displayIdentifier": "com.apple.Music",
+      "displayName": "Music",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-10-01T12:00:00"
+      }
+    }
+  ],
+  [
+    {
+      "allowsExternalSuggestions": false,
+      "allowsSuggestions": true,
+      "displayIdentifier": "11111111-2222-3333-4444-555555555555",
+      "elements": [
+        {
+          "bundleIdentifier": "com.apple.weather.widget",
+          "containerBundleIdentifier": "com.apple.weather",
+          "elementType": "widget",
+          "uniqueIdentifier": "AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE",
+          "widgetIdentifier": "com.apple.weather"
+        }
+      ],
+      "gridSize": "medium",
+      "iconLists": [],
+      "iconType": "custom"
+    },
+    {
+      "bundleIdentifier": "com.apple.camera",
+      "bundleVersion": "1.0",
+      "displayIdentifier": "com.apple.camera",
+      "displayName": "Camera",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-10-01T12:00:00"
+      }
+    },
+    {
+      "displayIdentifier": "com.example.offloaded",
+      "displayName": "Offloaded App (Beta)"
+    },
+    {
+      "displayName": "MultiPage Folder",
+      "folderIdentifier": "FOLDER-IDENTITY-001",
+      "iconLists": [
+        [
+          {
+            "bundleIdentifier": "com.example.app01",
+            "displayIdentifier": "com.example.app01",
+            "displayName": "App 01"
+          },
+          {
+            "bundleIdentifier": "com.example.app02",
+            "displayIdentifier": "com.example.app02",
+            "displayName": "App 02"
+          },
+          {
+            "bundleIdentifier": "com.example.app03",
+            "displayIdentifier": "com.example.app03",
+            "displayName": "App 03"
+          },
+          {
+            "bundleIdentifier": "com.example.app04",
+            "displayIdentifier": "com.example.app04",
+            "displayName": "App 04"
+          },
+          {
+            "bundleIdentifier": "com.example.app05",
+            "displayIdentifier": "com.example.app05",
+            "displayName": "App 05"
+          },
+          {
+            "bundleIdentifier": "com.example.app06",
+            "displayIdentifier": "com.example.app06",
+            "displayName": "App 06"
+          },
+          {
+            "bundleIdentifier": "com.example.app07",
+            "displayIdentifier": "com.example.app07",
+            "displayName": "App 07"
+          },
+          {
+            "bundleIdentifier": "com.example.app08",
+            "displayIdentifier": "com.example.app08",
+            "displayName": "App 08"
+          },
+          {
+            "bundleIdentifier": "com.example.app09",
+            "displayIdentifier": "com.example.app09",
+            "displayName": "App 09"
+          }
+        ],
+        [
+          {
+            "bundleIdentifier": "com.example.app10",
+            "displayIdentifier": "com.example.app10",
+            "displayName": "App 10"
+          },
+          {
+            "bundleIdentifier": "com.example.app11",
+            "displayIdentifier": "com.example.app11",
+            "displayName": "App 11"
+          }
+        ]
+      ],
+      "listType": "folder"
+    }
+  ],
+  [
+    {
+      "displayIdentifier": "WEBCLIP-UUID-9999",
+      "displayName": "Docs Portal",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2025-05-10T08:30:00"
+      },
+      "webClipURL": "https://docs.example.com"
+    },
+    {
+      "bundleIdentifier": "com.apple.camera",
+      "displayIdentifier": "BOOKMARK-UUID-7777",
+      "iconLists": [],
+      "iconType": "app"
+    },
+    {
+      "customPayload": {
+        "flags": [1, 2, 3],
+        "rawBlob": {
+          "__plist_type__": "bytes",
+          "base64": "aW9zLW9yZ2FuaXplcg=="
+        }
+      },
+      "displayIdentifier": "UNKNOWN-ELEMENT-0001",
+      "iconType": "futureSpringBoardElement"
+    }
+  ]
+]

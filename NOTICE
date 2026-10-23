@@ -1,0 +1,12 @@
+iOS Organizer
+Copyright (C) 2026 iOS Organizer contributors
+
+Licensed under GPL-3.0-or-later. See LICENSE for the full license text.
+
+This project depends on pymobiledevice3 (GPL-3.0-or-later), PyYAML (MIT),
+Rich (MIT), Typer (MIT), and Pillow (MIT-CMU). These projects remain the
+work of their respective authors and are installed separately by pip.
+
+Apple, iPhone, iOS, macOS, and other product names belong to their respective
+owners. This project is independent and is not affiliated with Apple or the
+providers of Codex, Claude Code, or Gemini CLI.

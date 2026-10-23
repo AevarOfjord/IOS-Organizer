@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a reproducible problem with redacted details.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Use fictional examples and redacted logs. Keep phone backups, identifiers, app collections, and credentials private. Report vulnerabilities through SECURITY.md."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include expected behavior and steps to reproduce.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Project version, macOS, iOS, Python, and coding agent. State whether the operation was offline, read-only, or a phone write.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted error output
+      render: text

@@ -1,0 +1,13 @@
+include README.md LICENSE NOTICE CHANGELOG.md CONTRIBUTING.md SECURITY.md AGENTS.md CLAUDE.md GEMINI.md
+recursive-include docs *.md *.png
+recursive-include examples *.yaml
+recursive-include tests *.py *.json *.md
+recursive-include scripts *.py
+prune workspace
+prune backups
+prune probe
+prune .venv
+prune .git
+prune .pytest_cache
+global-exclude *.py[cod]
+global-exclude .DS_Store

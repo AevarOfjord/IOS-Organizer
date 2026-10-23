@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Setup and CLI documentation
+    url: https://github.com/AevarOfjord/IOS-Organizer/blob/main/docs/cli-reference.md
+    about: Check setup, commands, and known limitations.

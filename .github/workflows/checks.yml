@@ -1,0 +1,53 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.os }} / Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+      - run: python -m pip install -e '.[dev]'
+      - run: python -m pytest -q
+      - run: python scripts/check_release.py
+      - name: Offline CLI smoke test
+        run: |
+          python -m ios_organizer guide
+          python -m ios_organizer validate --layout examples/layout.yaml
+          python -m ios_organizer inventory --layout examples/layout.yaml
+          python -m ios_organizer preview --layout examples/layout.yaml --output workspace/demo.html
+          python -m ios_organizer preview --layout examples/layout.yaml --output workspace/demo.png
+          python -m ios_organizer ui plan --layout examples/spatial-layout.yaml --preview workspace/widgets.png
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install build twine
+      - run: python -m build
+      - run: python -m twine check dist/*
+      - name: Inspect distribution contents
+        run: python scripts/check_release.py --dist dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: python-distributions
+          path: dist/*

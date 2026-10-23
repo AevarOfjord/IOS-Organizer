@@ -1,0 +1,50 @@
+spatial_version: 1
+grid:
+  columns: 4
+  rows: 6
+notes: Fictional design. Unlisted apps and the dock are unchanged. Requires agent-guided native UI actions.
+pages:
+  - page: 1
+    items:
+      - widget:
+          id: weather-main
+          app: Weather (com.apple.weather)
+          size: small
+          configuration:
+            location: Current Location
+        row: 1
+        column: 1
+      - widget:
+          id: calendar-main
+          app: Calendar (com.apple.mobilecal)
+          size: small
+        row: 1
+        column: 3
+      - widget:
+          id: reminders-main
+          app: Reminders (com.apple.reminders)
+          size: medium
+        row: 3
+        column: 1
+      - app: Example Mail (com.example.mail)
+        row: 5
+        column: 1
+      - app: Example Maps (com.example.maps)
+        row: 5
+        column: 2
+      - app: Example Podcasts (com.example.podcasts)
+        row: 5
+        column: 3
+      - app: Example Music (com.example.music)
+        row: 5
+        column: 4
+  - page: 2
+    items:
+      - empty: true
+        row: 1
+        column: 1
+        width: 4
+        height: 4
+      - app: Example Camera (com.example.camera)
+        row: 5
+        column: 1

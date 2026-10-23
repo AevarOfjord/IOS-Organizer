@@ -1,0 +1,59 @@
+# Fictional example for offline previews. Not a layout to push to a phone.
+schema_version: 1
+
+dock:
+  - Phone (com.apple.mobilephone)
+  - Messages (com.apple.MobileSMS)
+  - Safari (com.apple.mobilesafari)
+
+pages:
+  - page: 1
+    items:
+      - Calendar (com.apple.mobilecal)
+      - Camera (com.apple.camera)
+      - FaceTime (com.apple.facetime)
+      - Maps (com.apple.Maps)
+      - Mail (com.apple.mobilemail)
+      - Music (com.apple.Music)
+      - Notes (com.apple.mobilenotes)
+      - Photos (com.apple.mobileslideshow)
+  - page: 2
+    items:
+      - folder: Authentication
+        apps:
+          - Example Authenticator (com.example.authenticator)
+          - Example Passwords (com.example.passwords)
+      - folder: Creativity
+        apps:
+          - Example Drawing (com.example.drawing)
+          - Example Studio (com.example.studio)
+      - folder: Finance
+        apps:
+          - Example Bank (com.example.bank)
+          - Example Budget (com.example.budget)
+          - Example Wallet (com.example.wallet)
+      - folder: Health
+        apps:
+          - Example Fitness (com.example.fitness)
+          - Example Wellness (com.example.wellness)
+      - folder: Shopping
+        apps:
+          - Example Market (com.example.market)
+          - Example Store (com.example.store)
+      - folder: Social
+        apps:
+          - Example Chat (com.example.chat)
+          - Example Community (com.example.community)
+          - Example Network (com.example.network)
+      - folder: Travel
+        apps:
+          - Example Flights (com.example.flights)
+          - Example Hotels (com.example.hotels)
+          - Example Transit (com.example.transit)
+      - folder: Work
+        apps:
+          - Example Meetings (com.example.meetings)
+          - Example Projects (com.example.projects)
+          - Example Tasks (com.example.tasks)
+
+unassigned_apps: []

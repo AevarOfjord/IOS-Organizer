@@ -1,0 +1,2639 @@
+[
+  [
+    {
+      "displayIdentifier": "com.example.synthetic.app001",
+      "bundleIdentifier": "com.example.synthetic.app001",
+      "displayName": "Synthetic App 001",
+      "bundleVersion": "1.0",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-01-01T00:00:00"
+      }
+    },
+    {
+      "displayIdentifier": "com.example.synthetic.app002",
+      "bundleIdentifier": "com.example.synthetic.app002",
+      "displayName": "Synthetic App 002",
+      "bundleVersion": "1.0",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-01-01T00:00:00"
+      }
+    },
+    {
+      "displayIdentifier": "com.example.synthetic.app003",
+      "bundleIdentifier": "com.example.synthetic.app003",
+      "displayName": "Synthetic App 003",
+      "bundleVersion": "1.0",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-01-01T00:00:00"
+      }
+    },
+    {
+      "displayIdentifier": "com.example.synthetic.app004",
+      "bundleIdentifier": "com.example.synthetic.app004",
+      "displayName": "Synthetic App 004",
+      "bundleVersion": "1.0",
+      "iconModDate": {
+        "__plist_type__": "datetime",
+        "iso": "2026-01-01T00:00:00"
+      }
+    }
+  ],
+  [],
+  [
+    {
+      "listType": "folder",
+      "displayName": "Example Group 01",
+      "folderIdentifier": "SYNTHETIC-FOLDER-01",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app005",
+            "bundleIdentifier": "com.example.synthetic.app005",
+            "displayName": "Synthetic App 005",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app006",
+            "bundleIdentifier": "com.example.synthetic.app006",
+            "displayName": "Synthetic App 006",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app007",
+            "bundleIdentifier": "com.example.synthetic.app007",
+            "displayName": "Synthetic App 007",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app008",
+            "bundleIdentifier": "com.example.synthetic.app008",
+            "displayName": "Synthetic App 008",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app009",
+            "bundleIdentifier": "com.example.synthetic.app009",
+            "displayName": "Synthetic App 009",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app010",
+            "bundleIdentifier": "com.example.synthetic.app010",
+            "displayName": "Synthetic App 010",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app011",
+            "bundleIdentifier": "com.example.synthetic.app011",
+            "displayName": "Synthetic App 011",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app012",
+            "bundleIdentifier": "com.example.synthetic.app012",
+            "displayName": "Synthetic App 012",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app013",
+            "bundleIdentifier": "com.example.synthetic.app013",
+            "displayName": "Synthetic App 013",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app014",
+            "bundleIdentifier": "com.example.synthetic.app014",
+            "displayName": "Synthetic App 014",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app015",
+            "bundleIdentifier": "com.example.synthetic.app015",
+            "displayName": "Synthetic App 015",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app016",
+            "bundleIdentifier": "com.example.synthetic.app016",
+            "displayName": "Synthetic App 016",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app017",
+            "bundleIdentifier": "com.example.synthetic.app017",
+            "displayName": "Synthetic App 017",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app018",
+            "bundleIdentifier": "com.example.synthetic.app018",
+            "displayName": "Synthetic App 018",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app019",
+            "bundleIdentifier": "com.example.synthetic.app019",
+            "displayName": "Synthetic App 019",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app020",
+            "bundleIdentifier": "com.example.synthetic.app020",
+            "displayName": "Synthetic App 020",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app021",
+            "bundleIdentifier": "com.example.synthetic.app021",
+            "displayName": "Synthetic App 021",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app022",
+            "bundleIdentifier": "com.example.synthetic.app022",
+            "displayName": "Synthetic App 022",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app023",
+            "bundleIdentifier": "com.example.synthetic.app023",
+            "displayName": "Synthetic App 023",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app024",
+            "bundleIdentifier": "com.example.synthetic.app024",
+            "displayName": "Synthetic App 024",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 02",
+      "folderIdentifier": "SYNTHETIC-FOLDER-02",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app025",
+            "bundleIdentifier": "com.example.synthetic.app025",
+            "displayName": "Synthetic App 025",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app026",
+            "bundleIdentifier": "com.example.synthetic.app026",
+            "displayName": "Synthetic App 026",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app027",
+            "bundleIdentifier": "com.example.synthetic.app027",
+            "displayName": "Synthetic App 027",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app028",
+            "bundleIdentifier": "com.example.synthetic.app028",
+            "displayName": "Synthetic App 028",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app029",
+            "bundleIdentifier": "com.example.synthetic.app029",
+            "displayName": "Synthetic App 029",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app030",
+            "bundleIdentifier": "com.example.synthetic.app030",
+            "displayName": "Synthetic App 030",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app031",
+            "bundleIdentifier": "com.example.synthetic.app031",
+            "displayName": "Synthetic App 031",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app032",
+            "bundleIdentifier": "com.example.synthetic.app032",
+            "displayName": "Synthetic App 032",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app033",
+            "bundleIdentifier": "com.example.synthetic.app033",
+            "displayName": "Synthetic App 033",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app034",
+            "bundleIdentifier": "com.example.synthetic.app034",
+            "displayName": "Synthetic App 034",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app035",
+            "bundleIdentifier": "com.example.synthetic.app035",
+            "displayName": "Synthetic App 035",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app036",
+            "bundleIdentifier": "com.example.synthetic.app036",
+            "displayName": "Synthetic App 036",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app037",
+            "bundleIdentifier": "com.example.synthetic.app037",
+            "displayName": "Synthetic App 037",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app038",
+            "bundleIdentifier": "com.example.synthetic.app038",
+            "displayName": "Synthetic App 038",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app039",
+            "bundleIdentifier": "com.example.synthetic.app039",
+            "displayName": "Synthetic App 039",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app040",
+            "bundleIdentifier": "com.example.synthetic.app040",
+            "displayName": "Synthetic App 040",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app041",
+            "bundleIdentifier": "com.example.synthetic.app041",
+            "displayName": "Synthetic App 041",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app042",
+            "bundleIdentifier": "com.example.synthetic.app042",
+            "displayName": "Synthetic App 042",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app043",
+            "bundleIdentifier": "com.example.synthetic.app043",
+            "displayName": "Synthetic App 043",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app044",
+            "bundleIdentifier": "com.example.synthetic.app044",
+            "displayName": "Synthetic App 044",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 03",
+      "folderIdentifier": "SYNTHETIC-FOLDER-03",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app045",
+            "bundleIdentifier": "com.example.synthetic.app045",
+            "displayName": "Synthetic App 045",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app046",
+            "bundleIdentifier": "com.example.synthetic.app046",
+            "displayName": "Synthetic App 046",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app047",
+            "bundleIdentifier": "com.example.synthetic.app047",
+            "displayName": "Synthetic App 047",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app048",
+            "bundleIdentifier": "com.example.synthetic.app048",
+            "displayName": "Synthetic App 048",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app049",
+            "bundleIdentifier": "com.example.synthetic.app049",
+            "displayName": "Synthetic App 049",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app050",
+            "bundleIdentifier": "com.example.synthetic.app050",
+            "displayName": "Synthetic App 050",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app051",
+            "bundleIdentifier": "com.example.synthetic.app051",
+            "displayName": "Synthetic App 051",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app052",
+            "bundleIdentifier": "com.example.synthetic.app052",
+            "displayName": "Synthetic App 052",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app053",
+            "bundleIdentifier": "com.example.synthetic.app053",
+            "displayName": "Synthetic App 053",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app054",
+            "bundleIdentifier": "com.example.synthetic.app054",
+            "displayName": "Synthetic App 054",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app055",
+            "bundleIdentifier": "com.example.synthetic.app055",
+            "displayName": "Synthetic App 055",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app056",
+            "bundleIdentifier": "com.example.synthetic.app056",
+            "displayName": "Synthetic App 056",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app057",
+            "bundleIdentifier": "com.example.synthetic.app057",
+            "displayName": "Synthetic App 057",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app058",
+            "bundleIdentifier": "com.example.synthetic.app058",
+            "displayName": "Synthetic App 058",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app059",
+            "bundleIdentifier": "com.example.synthetic.app059",
+            "displayName": "Synthetic App 059",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app060",
+            "bundleIdentifier": "com.example.synthetic.app060",
+            "displayName": "Synthetic App 060",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app061",
+            "bundleIdentifier": "com.example.synthetic.app061",
+            "displayName": "Synthetic App 061",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app062",
+            "bundleIdentifier": "com.example.synthetic.app062",
+            "displayName": "Synthetic App 062",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app063",
+            "bundleIdentifier": "com.example.synthetic.app063",
+            "displayName": "Synthetic App 063",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app064",
+            "bundleIdentifier": "com.example.synthetic.app064",
+            "displayName": "Synthetic App 064",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 04",
+      "folderIdentifier": "SYNTHETIC-FOLDER-04",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app065",
+            "bundleIdentifier": "com.example.synthetic.app065",
+            "displayName": "Synthetic App 065",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app066",
+            "bundleIdentifier": "com.example.synthetic.app066",
+            "displayName": "Synthetic App 066",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app067",
+            "bundleIdentifier": "com.example.synthetic.app067",
+            "displayName": "Synthetic App 067",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app068",
+            "bundleIdentifier": "com.example.synthetic.app068",
+            "displayName": "Synthetic App 068",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app069",
+            "bundleIdentifier": "com.example.synthetic.app069",
+            "displayName": "Synthetic App 069",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app070",
+            "bundleIdentifier": "com.example.synthetic.app070",
+            "displayName": "Synthetic App 070",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app071",
+            "bundleIdentifier": "com.example.synthetic.app071",
+            "displayName": "Synthetic App 071",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app072",
+            "bundleIdentifier": "com.example.synthetic.app072",
+            "displayName": "Synthetic App 072",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app073",
+            "bundleIdentifier": "com.example.synthetic.app073",
+            "displayName": "Synthetic App 073",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app074",
+            "bundleIdentifier": "com.example.synthetic.app074",
+            "displayName": "Synthetic App 074",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app075",
+            "bundleIdentifier": "com.example.synthetic.app075",
+            "displayName": "Synthetic App 075",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app076",
+            "bundleIdentifier": "com.example.synthetic.app076",
+            "displayName": "Synthetic App 076",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app077",
+            "bundleIdentifier": "com.example.synthetic.app077",
+            "displayName": "Synthetic App 077",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app078",
+            "bundleIdentifier": "com.example.synthetic.app078",
+            "displayName": "Synthetic App 078",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app079",
+            "bundleIdentifier": "com.example.synthetic.app079",
+            "displayName": "Synthetic App 079",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app080",
+            "bundleIdentifier": "com.example.synthetic.app080",
+            "displayName": "Synthetic App 080",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app081",
+            "bundleIdentifier": "com.example.synthetic.app081",
+            "displayName": "Synthetic App 081",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app082",
+            "bundleIdentifier": "com.example.synthetic.app082",
+            "displayName": "Synthetic App 082",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app083",
+            "bundleIdentifier": "com.example.synthetic.app083",
+            "displayName": "Synthetic App 083",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app084",
+            "bundleIdentifier": "com.example.synthetic.app084",
+            "displayName": "Synthetic App 084",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 05",
+      "folderIdentifier": "SYNTHETIC-FOLDER-05",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app085",
+            "bundleIdentifier": "com.example.synthetic.app085",
+            "displayName": "Synthetic App 085",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app086",
+            "bundleIdentifier": "com.example.synthetic.app086",
+            "displayName": "Synthetic App 086",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app087",
+            "bundleIdentifier": "com.example.synthetic.app087",
+            "displayName": "Synthetic App 087",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app088",
+            "bundleIdentifier": "com.example.synthetic.app088",
+            "displayName": "Synthetic App 088",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app089",
+            "bundleIdentifier": "com.example.synthetic.app089",
+            "displayName": "Synthetic App 089",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app090",
+            "bundleIdentifier": "com.example.synthetic.app090",
+            "displayName": "Synthetic App 090",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app091",
+            "bundleIdentifier": "com.example.synthetic.app091",
+            "displayName": "Synthetic App 091",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app092",
+            "bundleIdentifier": "com.example.synthetic.app092",
+            "displayName": "Synthetic App 092",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app093",
+            "bundleIdentifier": "com.example.synthetic.app093",
+            "displayName": "Synthetic App 093",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app094",
+            "bundleIdentifier": "com.example.synthetic.app094",
+            "displayName": "Synthetic App 094",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app095",
+            "bundleIdentifier": "com.example.synthetic.app095",
+            "displayName": "Synthetic App 095",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app096",
+            "bundleIdentifier": "com.example.synthetic.app096",
+            "displayName": "Synthetic App 096",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app097",
+            "bundleIdentifier": "com.example.synthetic.app097",
+            "displayName": "Synthetic App 097",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app098",
+            "bundleIdentifier": "com.example.synthetic.app098",
+            "displayName": "Synthetic App 098",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app099",
+            "bundleIdentifier": "com.example.synthetic.app099",
+            "displayName": "Synthetic App 099",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app100",
+            "bundleIdentifier": "com.example.synthetic.app100",
+            "displayName": "Synthetic App 100",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app101",
+            "bundleIdentifier": "com.example.synthetic.app101",
+            "displayName": "Synthetic App 101",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app102",
+            "bundleIdentifier": "com.example.synthetic.app102",
+            "displayName": "Synthetic App 102",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app103",
+            "bundleIdentifier": "com.example.synthetic.app103",
+            "displayName": "Synthetic App 103",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app104",
+            "bundleIdentifier": "com.example.synthetic.app104",
+            "displayName": "Synthetic App 104",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 06",
+      "folderIdentifier": "SYNTHETIC-FOLDER-06",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app105",
+            "bundleIdentifier": "com.example.synthetic.app105",
+            "displayName": "Synthetic App 105",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app106",
+            "bundleIdentifier": "com.example.synthetic.app106",
+            "displayName": "Synthetic App 106",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app107",
+            "bundleIdentifier": "com.example.synthetic.app107",
+            "displayName": "Synthetic App 107",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app108",
+            "bundleIdentifier": "com.example.synthetic.app108",
+            "displayName": "Synthetic App 108",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app109",
+            "bundleIdentifier": "com.example.synthetic.app109",
+            "displayName": "Synthetic App 109",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app110",
+            "bundleIdentifier": "com.example.synthetic.app110",
+            "displayName": "Synthetic App 110",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app111",
+            "bundleIdentifier": "com.example.synthetic.app111",
+            "displayName": "Synthetic App 111",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app112",
+            "bundleIdentifier": "com.example.synthetic.app112",
+            "displayName": "Synthetic App 112",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app113",
+            "bundleIdentifier": "com.example.synthetic.app113",
+            "displayName": "Synthetic App 113",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app114",
+            "bundleIdentifier": "com.example.synthetic.app114",
+            "displayName": "Synthetic App 114",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app115",
+            "bundleIdentifier": "com.example.synthetic.app115",
+            "displayName": "Synthetic App 115",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app116",
+            "bundleIdentifier": "com.example.synthetic.app116",
+            "displayName": "Synthetic App 116",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app117",
+            "bundleIdentifier": "com.example.synthetic.app117",
+            "displayName": "Synthetic App 117",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app118",
+            "bundleIdentifier": "com.example.synthetic.app118",
+            "displayName": "Synthetic App 118",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app119",
+            "bundleIdentifier": "com.example.synthetic.app119",
+            "displayName": "Synthetic App 119",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app120",
+            "bundleIdentifier": "com.example.synthetic.app120",
+            "displayName": "Synthetic App 120",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app121",
+            "bundleIdentifier": "com.example.synthetic.app121",
+            "displayName": "Synthetic App 121",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app122",
+            "bundleIdentifier": "com.example.synthetic.app122",
+            "displayName": "Synthetic App 122",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app123",
+            "bundleIdentifier": "com.example.synthetic.app123",
+            "displayName": "Synthetic App 123",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app124",
+            "bundleIdentifier": "com.example.synthetic.app124",
+            "displayName": "Synthetic App 124",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 07",
+      "folderIdentifier": "SYNTHETIC-FOLDER-07",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app125",
+            "bundleIdentifier": "com.example.synthetic.app125",
+            "displayName": "Synthetic App 125",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app126",
+            "bundleIdentifier": "com.example.synthetic.app126",
+            "displayName": "Synthetic App 126",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app127",
+            "bundleIdentifier": "com.example.synthetic.app127",
+            "displayName": "Synthetic App 127",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app128",
+            "bundleIdentifier": "com.example.synthetic.app128",
+            "displayName": "Synthetic App 128",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app129",
+            "bundleIdentifier": "com.example.synthetic.app129",
+            "displayName": "Synthetic App 129",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app130",
+            "bundleIdentifier": "com.example.synthetic.app130",
+            "displayName": "Synthetic App 130",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app131",
+            "bundleIdentifier": "com.example.synthetic.app131",
+            "displayName": "Synthetic App 131",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app132",
+            "bundleIdentifier": "com.example.synthetic.app132",
+            "displayName": "Synthetic App 132",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app133",
+            "bundleIdentifier": "com.example.synthetic.app133",
+            "displayName": "Synthetic App 133",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app134",
+            "bundleIdentifier": "com.example.synthetic.app134",
+            "displayName": "Synthetic App 134",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app135",
+            "bundleIdentifier": "com.example.synthetic.app135",
+            "displayName": "Synthetic App 135",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app136",
+            "bundleIdentifier": "com.example.synthetic.app136",
+            "displayName": "Synthetic App 136",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app137",
+            "bundleIdentifier": "com.example.synthetic.app137",
+            "displayName": "Synthetic App 137",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app138",
+            "bundleIdentifier": "com.example.synthetic.app138",
+            "displayName": "Synthetic App 138",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app139",
+            "bundleIdentifier": "com.example.synthetic.app139",
+            "displayName": "Synthetic App 139",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app140",
+            "bundleIdentifier": "com.example.synthetic.app140",
+            "displayName": "Synthetic App 140",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app141",
+            "bundleIdentifier": "com.example.synthetic.app141",
+            "displayName": "Synthetic App 141",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app142",
+            "bundleIdentifier": "com.example.synthetic.app142",
+            "displayName": "Synthetic App 142",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app143",
+            "bundleIdentifier": "com.example.synthetic.app143",
+            "displayName": "Synthetic App 143",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app144",
+            "bundleIdentifier": "com.example.synthetic.app144",
+            "displayName": "Synthetic App 144",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 08",
+      "folderIdentifier": "SYNTHETIC-FOLDER-08",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app145",
+            "bundleIdentifier": "com.example.synthetic.app145",
+            "displayName": "Synthetic App 145",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app146",
+            "bundleIdentifier": "com.example.synthetic.app146",
+            "displayName": "Synthetic App 146",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app147",
+            "bundleIdentifier": "com.example.synthetic.app147",
+            "displayName": "Synthetic App 147",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app148",
+            "bundleIdentifier": "com.example.synthetic.app148",
+            "displayName": "Synthetic App 148",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app149",
+            "bundleIdentifier": "com.example.synthetic.app149",
+            "displayName": "Synthetic App 149",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app150",
+            "bundleIdentifier": "com.example.synthetic.app150",
+            "displayName": "Synthetic App 150",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app151",
+            "bundleIdentifier": "com.example.synthetic.app151",
+            "displayName": "Synthetic App 151",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app152",
+            "bundleIdentifier": "com.example.synthetic.app152",
+            "displayName": "Synthetic App 152",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app153",
+            "bundleIdentifier": "com.example.synthetic.app153",
+            "displayName": "Synthetic App 153",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app154",
+            "bundleIdentifier": "com.example.synthetic.app154",
+            "displayName": "Synthetic App 154",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app155",
+            "bundleIdentifier": "com.example.synthetic.app155",
+            "displayName": "Synthetic App 155",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app156",
+            "bundleIdentifier": "com.example.synthetic.app156",
+            "displayName": "Synthetic App 156",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app157",
+            "bundleIdentifier": "com.example.synthetic.app157",
+            "displayName": "Synthetic App 157",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app158",
+            "bundleIdentifier": "com.example.synthetic.app158",
+            "displayName": "Synthetic App 158",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app159",
+            "bundleIdentifier": "com.example.synthetic.app159",
+            "displayName": "Synthetic App 159",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app160",
+            "bundleIdentifier": "com.example.synthetic.app160",
+            "displayName": "Synthetic App 160",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app161",
+            "bundleIdentifier": "com.example.synthetic.app161",
+            "displayName": "Synthetic App 161",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app162",
+            "bundleIdentifier": "com.example.synthetic.app162",
+            "displayName": "Synthetic App 162",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app163",
+            "bundleIdentifier": "com.example.synthetic.app163",
+            "displayName": "Synthetic App 163",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app164",
+            "bundleIdentifier": "com.example.synthetic.app164",
+            "displayName": "Synthetic App 164",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 09",
+      "folderIdentifier": "SYNTHETIC-FOLDER-09",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app165",
+            "bundleIdentifier": "com.example.synthetic.app165",
+            "displayName": "Synthetic App 165",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app166",
+            "bundleIdentifier": "com.example.synthetic.app166",
+            "displayName": "Synthetic App 166",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app167",
+            "bundleIdentifier": "com.example.synthetic.app167",
+            "displayName": "Synthetic App 167",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app168",
+            "bundleIdentifier": "com.example.synthetic.app168",
+            "displayName": "Synthetic App 168",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app169",
+            "bundleIdentifier": "com.example.synthetic.app169",
+            "displayName": "Synthetic App 169",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app170",
+            "bundleIdentifier": "com.example.synthetic.app170",
+            "displayName": "Synthetic App 170",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app171",
+            "bundleIdentifier": "com.example.synthetic.app171",
+            "displayName": "Synthetic App 171",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app172",
+            "bundleIdentifier": "com.example.synthetic.app172",
+            "displayName": "Synthetic App 172",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app173",
+            "bundleIdentifier": "com.example.synthetic.app173",
+            "displayName": "Synthetic App 173",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app174",
+            "bundleIdentifier": "com.example.synthetic.app174",
+            "displayName": "Synthetic App 174",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app175",
+            "bundleIdentifier": "com.example.synthetic.app175",
+            "displayName": "Synthetic App 175",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app176",
+            "bundleIdentifier": "com.example.synthetic.app176",
+            "displayName": "Synthetic App 176",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app177",
+            "bundleIdentifier": "com.example.synthetic.app177",
+            "displayName": "Synthetic App 177",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app178",
+            "bundleIdentifier": "com.example.synthetic.app178",
+            "displayName": "Synthetic App 178",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app179",
+            "bundleIdentifier": "com.example.synthetic.app179",
+            "displayName": "Synthetic App 179",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app180",
+            "bundleIdentifier": "com.example.synthetic.app180",
+            "displayName": "Synthetic App 180",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app181",
+            "bundleIdentifier": "com.example.synthetic.app181",
+            "displayName": "Synthetic App 181",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app182",
+            "bundleIdentifier": "com.example.synthetic.app182",
+            "displayName": "Synthetic App 182",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app183",
+            "bundleIdentifier": "com.example.synthetic.app183",
+            "displayName": "Synthetic App 183",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app184",
+            "bundleIdentifier": "com.example.synthetic.app184",
+            "displayName": "Synthetic App 184",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 10",
+      "folderIdentifier": "SYNTHETIC-FOLDER-10",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app185",
+            "bundleIdentifier": "com.example.synthetic.app185",
+            "displayName": "Synthetic App 185",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app186",
+            "bundleIdentifier": "com.example.synthetic.app186",
+            "displayName": "Synthetic App 186",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app187",
+            "bundleIdentifier": "com.example.synthetic.app187",
+            "displayName": "Synthetic App 187",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app188",
+            "bundleIdentifier": "com.example.synthetic.app188",
+            "displayName": "Synthetic App 188",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app189",
+            "bundleIdentifier": "com.example.synthetic.app189",
+            "displayName": "Synthetic App 189",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app190",
+            "bundleIdentifier": "com.example.synthetic.app190",
+            "displayName": "Synthetic App 190",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app191",
+            "bundleIdentifier": "com.example.synthetic.app191",
+            "displayName": "Synthetic App 191",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app192",
+            "bundleIdentifier": "com.example.synthetic.app192",
+            "displayName": "Synthetic App 192",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app193",
+            "bundleIdentifier": "com.example.synthetic.app193",
+            "displayName": "Synthetic App 193",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app194",
+            "bundleIdentifier": "com.example.synthetic.app194",
+            "displayName": "Synthetic App 194",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app195",
+            "bundleIdentifier": "com.example.synthetic.app195",
+            "displayName": "Synthetic App 195",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app196",
+            "bundleIdentifier": "com.example.synthetic.app196",
+            "displayName": "Synthetic App 196",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app197",
+            "bundleIdentifier": "com.example.synthetic.app197",
+            "displayName": "Synthetic App 197",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app198",
+            "bundleIdentifier": "com.example.synthetic.app198",
+            "displayName": "Synthetic App 198",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app199",
+            "bundleIdentifier": "com.example.synthetic.app199",
+            "displayName": "Synthetic App 199",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app200",
+            "bundleIdentifier": "com.example.synthetic.app200",
+            "displayName": "Synthetic App 200",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app201",
+            "bundleIdentifier": "com.example.synthetic.app201",
+            "displayName": "Synthetic App 201",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app202",
+            "bundleIdentifier": "com.example.synthetic.app202",
+            "displayName": "Synthetic App 202",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app203",
+            "bundleIdentifier": "com.example.synthetic.app203",
+            "displayName": "Synthetic App 203",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app204",
+            "bundleIdentifier": "com.example.synthetic.app204",
+            "displayName": "Synthetic App 204",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 11",
+      "folderIdentifier": "SYNTHETIC-FOLDER-11",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app205",
+            "bundleIdentifier": "com.example.synthetic.app205",
+            "displayName": "Synthetic App 205",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app206",
+            "bundleIdentifier": "com.example.synthetic.app206",
+            "displayName": "Synthetic App 206",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app207",
+            "bundleIdentifier": "com.example.synthetic.app207",
+            "displayName": "Synthetic App 207",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app208",
+            "bundleIdentifier": "com.example.synthetic.app208",
+            "displayName": "Synthetic App 208",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app209",
+            "bundleIdentifier": "com.example.synthetic.app209",
+            "displayName": "Synthetic App 209",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app210",
+            "bundleIdentifier": "com.example.synthetic.app210",
+            "displayName": "Synthetic App 210",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app211",
+            "bundleIdentifier": "com.example.synthetic.app211",
+            "displayName": "Synthetic App 211",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app212",
+            "bundleIdentifier": "com.example.synthetic.app212",
+            "displayName": "Synthetic App 212",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app213",
+            "bundleIdentifier": "com.example.synthetic.app213",
+            "displayName": "Synthetic App 213",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app214",
+            "bundleIdentifier": "com.example.synthetic.app214",
+            "displayName": "Synthetic App 214",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app215",
+            "bundleIdentifier": "com.example.synthetic.app215",
+            "displayName": "Synthetic App 215",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app216",
+            "bundleIdentifier": "com.example.synthetic.app216",
+            "displayName": "Synthetic App 216",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app217",
+            "bundleIdentifier": "com.example.synthetic.app217",
+            "displayName": "Synthetic App 217",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app218",
+            "bundleIdentifier": "com.example.synthetic.app218",
+            "displayName": "Synthetic App 218",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app219",
+            "bundleIdentifier": "com.example.synthetic.app219",
+            "displayName": "Synthetic App 219",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app220",
+            "bundleIdentifier": "com.example.synthetic.app220",
+            "displayName": "Synthetic App 220",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app221",
+            "bundleIdentifier": "com.example.synthetic.app221",
+            "displayName": "Synthetic App 221",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app222",
+            "bundleIdentifier": "com.example.synthetic.app222",
+            "displayName": "Synthetic App 222",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app223",
+            "bundleIdentifier": "com.example.synthetic.app223",
+            "displayName": "Synthetic App 223",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app224",
+            "bundleIdentifier": "com.example.synthetic.app224",
+            "displayName": "Synthetic App 224",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "listType": "folder",
+      "displayName": "Example Group 12",
+      "folderIdentifier": "SYNTHETIC-FOLDER-12",
+      "iconLists": [
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app225",
+            "bundleIdentifier": "com.example.synthetic.app225",
+            "displayName": "Synthetic App 225",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app226",
+            "bundleIdentifier": "com.example.synthetic.app226",
+            "displayName": "Synthetic App 226",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app227",
+            "bundleIdentifier": "com.example.synthetic.app227",
+            "displayName": "Synthetic App 227",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app228",
+            "bundleIdentifier": "com.example.synthetic.app228",
+            "displayName": "Synthetic App 228",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app229",
+            "bundleIdentifier": "com.example.synthetic.app229",
+            "displayName": "Synthetic App 229",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app230",
+            "bundleIdentifier": "com.example.synthetic.app230",
+            "displayName": "Synthetic App 230",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app231",
+            "bundleIdentifier": "com.example.synthetic.app231",
+            "displayName": "Synthetic App 231",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app232",
+            "bundleIdentifier": "com.example.synthetic.app232",
+            "displayName": "Synthetic App 232",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app233",
+            "bundleIdentifier": "com.example.synthetic.app233",
+            "displayName": "Synthetic App 233",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app234",
+            "bundleIdentifier": "com.example.synthetic.app234",
+            "displayName": "Synthetic App 234",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app235",
+            "bundleIdentifier": "com.example.synthetic.app235",
+            "displayName": "Synthetic App 235",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app236",
+            "bundleIdentifier": "com.example.synthetic.app236",
+            "displayName": "Synthetic App 236",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app237",
+            "bundleIdentifier": "com.example.synthetic.app237",
+            "displayName": "Synthetic App 237",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app238",
+            "bundleIdentifier": "com.example.synthetic.app238",
+            "displayName": "Synthetic App 238",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app239",
+            "bundleIdentifier": "com.example.synthetic.app239",
+            "displayName": "Synthetic App 239",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app240",
+            "bundleIdentifier": "com.example.synthetic.app240",
+            "displayName": "Synthetic App 240",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ],
+        [
+          {
+            "displayIdentifier": "com.example.synthetic.app241",
+            "bundleIdentifier": "com.example.synthetic.app241",
+            "displayName": "Synthetic App 241",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app242",
+            "bundleIdentifier": "com.example.synthetic.app242",
+            "displayName": "Synthetic App 242",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app243",
+            "bundleIdentifier": "com.example.synthetic.app243",
+            "displayName": "Synthetic App 243",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          },
+          {
+            "displayIdentifier": "com.example.synthetic.app244",
+            "bundleIdentifier": "com.example.synthetic.app244",
+            "displayName": "Synthetic App 244",
+            "bundleVersion": "1.0",
+            "iconModDate": {
+              "__plist_type__": "datetime",
+              "iso": "2026-01-01T00:00:00"
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  [
+    {
+      "displayIdentifier": "SYNTHETIC-WIDGET-001",
+      "iconType": "custom",
+      "gridSize": "small",
+      "elements": [
+        {
+          "containerBundleIdentifier": "com.example.synthetic.weather",
+          "widgetIdentifier": "com.example.synthetic.weather.widget"
+        }
+      ]
+    },
+    {
+      "displayIdentifier": "SYNTHETIC-BOOKMARK-001",
+      "bundleIdentifier": "com.example.synthetic.app001",
+      "iconType": "app",
+      "iconLists": []
+    },
+    {
+      "displayIdentifier": "SYNTHETIC-WEBCLIP-001",
+      "displayName": "Example Portal",
+      "webClipURL": "https://example.com/"
+    }
+  ]
+]
